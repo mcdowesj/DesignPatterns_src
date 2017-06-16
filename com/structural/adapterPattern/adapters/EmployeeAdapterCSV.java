@@ -1,7 +1,7 @@
-package com.structural.adapter.adapters;
+package com.structural.adapterPattern.adapters;
 
-import com.structural.adapter.employees.Employee;
-import com.structural.adapter.employees.EmployeeCSV;
+import com.structural.adapterPattern.employees.Employee;
+import com.structural.adapterPattern.employees.EmployeeCSV;
 
 /**
  * See EmployeeAdapterLdap.java for notes on this pattern. This just serves as an example of having multiple adapters.

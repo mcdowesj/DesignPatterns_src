@@ -1,4 +1,4 @@
-package com.structural.adapter.employees;
+package com.structural.adapterPattern.employees;
 
 public interface Employee {
 

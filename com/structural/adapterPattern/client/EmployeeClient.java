@@ -1,11 +1,11 @@
-package com.structural.adapter.client;
+package com.structural.adapterPattern.client;
 
-import com.structural.adapter.employees.Employee;
-import com.structural.adapter.adapters.EmployeeAdapterCSV;
-import com.structural.adapter.adapters.EmployeeAdapterLdap;
-import com.structural.adapter.employees.EmployeeCSV;
-import com.structural.adapter.employees.EmployeeDB;
-import com.structural.adapter.employees.EmployeeLdap;
+import com.structural.adapterPattern.employees.Employee;
+import com.structural.adapterPattern.adapters.EmployeeAdapterCSV;
+import com.structural.adapterPattern.adapters.EmployeeAdapterLdap;
+import com.structural.adapterPattern.employees.EmployeeCSV;
+import com.structural.adapterPattern.employees.EmployeeDB;
+import com.structural.adapterPattern.employees.EmployeeLdap;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +19,7 @@ public class EmployeeClient {
         Employee employeeFromDB = new EmployeeDB("1234", "John", "Doe", "john@doe.com");
         employees.add(employeeFromDB);
 
-        //Will not work! This is where the adapter comes into play!
+        //Will not work! This is where the adapterPattern comes into play!
         //Employee employeeFromLdap = new EmployeeLdap("chewie", "Solo", "Han", "han@solo.com");
 
         EmployeeLdap employeeFromLdap = new EmployeeLdap("4567", "Jane", "Doe", "jane@doe.com");

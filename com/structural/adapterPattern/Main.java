@@ -1,13 +1,9 @@
-package com.structural.adapter;
+package com.structural.adapterPattern;
 
-import com.structural.adapter.adapters.EmployeeAdapterLdap;
-import com.structural.adapter.client.EmployeeClient;
-import com.structural.adapter.employees.Employee;
+import com.structural.adapterPattern.client.EmployeeClient;
+import com.structural.adapterPattern.employees.Employee;
 
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**

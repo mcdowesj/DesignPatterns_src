@@ -1,7 +1,7 @@
-package com.structural.adapter.adapters;
+package com.structural.adapterPattern.adapters;
 
-import com.structural.adapter.employees.Employee;
-import com.structural.adapter.employees.EmployeeLdap;
+import com.structural.adapterPattern.employees.Employee;
+import com.structural.adapterPattern.employees.EmployeeLdap;
 
 /**
  * This is pretty much it. We wrap the calls to the EmployeeLdap (this does not implement or extend anything we need)
