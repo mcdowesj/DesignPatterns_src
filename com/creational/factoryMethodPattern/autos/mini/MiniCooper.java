@@ -1,7 +1,6 @@
 package com.creational.factoryMethodPattern.autos.mini;
 
 import com.creational.factoryMethodPattern.autos.Automobile;
-import com.sun.javafx.Logging;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

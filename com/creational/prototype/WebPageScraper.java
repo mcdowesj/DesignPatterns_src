@@ -1,6 +1,5 @@
 package com.creational.prototype;
 
-import com.sun.javafx.Logging;
 
 import javax.xml.ws.WebServiceClient;
 import java.io.BufferedReader;
